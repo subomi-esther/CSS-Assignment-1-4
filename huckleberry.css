@@ -1,0 +1,116 @@
+pre {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.theFirstBox{
+    display: flexbox;
+    background-color: rgb(65, 64, 64);
+    max-width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    margin: 0;
+    padding: 0;
+}
+
+.theMainText {
+    display: flexbox;
+    width: 100%;
+    background-color: #ffff;
+    height: 35vh;
+    padding-top: 40px ;
+    padding-left: 10px;
+    border: 8px;
+    border-bottom: #999999;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0;
+    
+}
+
+.theHeadingText{
+    display: flexbox;
+    background-color: #FFBF00;
+    border-color: #CC9900;
+    height: 29px;
+    position: relative;
+    bottom: -44px;
+    text-align: center;
+    white-space: nowrap;
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 28.8px;
+    padding-top: 9px;
+    width: fit-content;
+    
+}
+
+body{
+    background-color: #ffff;
+    
+}
+
+.highlightOne , .highlightTwo {
+    color: rgb(10, 153, 10);
+}
+
+@media (min-width: 320px) {
+    .theHeadingText{
+      min-width: 320px;
+      width: fit-content;
+    }
+    
+    .theMainText {
+        font-size: 10px;
+      max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .theHeadingText{
+      max-width: 768px;
+    }
+}
+
+@media (min-width:640px) {
+    .theHeadingText{
+      max-width: 640px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .theHeadingText{
+      max-width: 1024px;
+    }
+
+   
+} 
+
+@media (min-width: 1200px) {
+    .theHeadingText{
+      max-width: 1200px;
+    }
+
+   
+}
+
+@media (min-width: 1400px) {
+    .theHeadingText{
+      max-width: 1400px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .theHeadingText{
+      max-width: 1600px;
+    }
+}
+@media (min-width: 1800px) {
+    .theHeadingText{
+      max-width: 1800px;
+    }
+}
